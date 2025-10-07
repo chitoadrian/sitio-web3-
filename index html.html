@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Completo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>MiLogo</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a mi Sitio Web</h1>
+            <p>Desarrollador web, siempre innovando con nuevas ideas.</p>
+            <a href="#sobre-mi" class="btn">Conóceme</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="about">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador web con más de 5 años de experiencia creando sitios web para clientes de diversas industrias. Mi objetivo es crear experiencias únicas para los usuarios.</p>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <h2>Mis Servicios</h2>
+        <div class="service-item">
+            <h3>Diseño Web</h3>
+            <p>Diseño de páginas web únicas y responsivas para tu negocio o proyecto personal.</p>
+        </div>
+        <div class="service-item">
+            <h3>Desarrollo Frontend</h3>
+            <p>Transformo tus ideas en interfaces interactivas con HTML, CSS y JavaScript.</p>
+        </div>
+        <div class="service-item">
+            <h3>Consultoría Digital</h3>
+            <p>Ayudo a mejorar tu presencia en línea con estrategias digitales eficaces.</p>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o deseas trabajar conmigo, no dudes en contactarme.</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Tu nombre" required>
+            <input type="email" id="email" placeholder="Tu correo electrónico" required>
+            <textarea id="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
